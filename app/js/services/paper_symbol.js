@@ -1,14 +1,14 @@
 angular.module('app')
-    .factory('paperSymbol', function () {
-        var Symbol = function () {
+	.factory('paperSymbol', function () {
+		var Symbol = function () {
 
-        };
+		};
 
-        var create = function () {
+		var create = function () {
 			return new Symbol();
-        };
+		};
 
-        return {
+		return {
 			create: create
 		};
-    });
+	});
