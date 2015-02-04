@@ -1,5 +1,5 @@
 angular.module('app')
-    .service('svgService', [
+    .factory('svgService', [
         '$http',
         '$q',
         function ($http, $q) {

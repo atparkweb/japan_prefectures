@@ -1,5 +1,5 @@
 angular.module('app')
-    .service('paperService', ['svgService', function (svgService) {
+    .factory('paperService', ['svgService', function (svgService) {
         var update = function () {
             paper.view.update();
         };

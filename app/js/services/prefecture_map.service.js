@@ -1,5 +1,5 @@
 angular.module('app')
-    .service('prefectureMapService', [
+    .factory('prefectureMapService', [
             'paperService',
             function (paperService) {
                 return {

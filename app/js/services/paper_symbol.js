@@ -4,9 +4,11 @@ angular.module('app')
 
         };
 
-        this.create = function () {
-
+        var create = function () {
+			return new Symbol();
         };
 
-        return this;
+        return {
+			create: create
+		};
     });
